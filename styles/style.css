@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -179,4 +179,150 @@ footer{
     background-color: #FF6309;
 }
 
+
+
+@media (max-width: 1024px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    header img {
+        max-width: 120px;
+        padding: 0;
+    }
+
+    .contenedor1 {
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .contenedor1 h1 {
+        font-size: 4.5rem;
+    }
+
+    .contenedor1 p {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    .contenedor2 p,
+    .contenedor3 p {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    .contenedor2 .seccion1,
+    .contenedor3 .seccion2 {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .seccion1 article,
+    .seccion2 article {
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedor1 {
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        background-position: center;
+    }
+
+    .contenedor1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .contenedor1 p {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    .contenedor1 button {
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+    }
+
+    .contenedor2 h1,
+    .contenedor3 h1 {
+        font-size: 2.5rem;
+    }
+
+    .contenedor2 .seccion1,
+    .contenedor3 .seccion2 {
+        flex-direction: column;
+    }
+
+    .seccion1 article,
+    .seccion2 article {
+        width: 80%;
+    }
+
+    .seccion2 article img {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    header img {
+        max-width: 100px;
+    }
+
+    .contenedor1 h1 {
+        font-size: 2.8rem;
+    }
+
+    .contenedor1 p {
+        width: 95%;
+        font-size: 1.1rem;
+    }
+
+    .contenedor1 button {
+        padding: 0.8rem 2.5rem;
+        font-size: 1rem;
+    }
+
+    .contenedor2,
+    .contenedor3 {
+        padding: 2rem 1rem;
+    }
+
+    .seccion1 article,
+    .seccion2 article {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 1rem 0;
+    }
+}
 
